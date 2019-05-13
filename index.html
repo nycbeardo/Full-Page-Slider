@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sliding Page Concept</title>
+<!-- stylesheet-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!-- for the icons, and buttons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="slider">
+        <div class="slider-container">
+
+            <div class="slide active"
+                style="background-image: url('https://images.unsplash.com/photo-1496003429252-973451cfdc2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');">
+
+
+                <div class="info">
+                    <h1>Flower Shop</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum.
+                    </p>
+                   
+                </div>
+
+            </div>
+            <div class="slide"
+                style="background-image: url('https://images.unsplash.com/photo-1531058240690-006c446962d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');">
+                <div class="info">
+                    <h1>Our Story</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Amet, vero earum perspiciatis officia
+                    </p>
+                    
+
+                </div>
+            </div>
+            <div class="slide"
+                style="background-image: url('https://images.unsplash.com/photo-1494972308805-463bc619d34e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80')">
+                <div class="info">
+                    <h1>Products</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Incidunt recusandae unde autem
+                    </p>
+                                                          
+                </div>
+            </div>
+            <!-- The rest of the slides -->
+        </div>
+        <div class="eraser"></div>
+        <!--buttons and slider click-->
+        <div class="buttons-container">
+            <button id="previous"><i class="fas fa-arrow-circle-left"></i></button>
+            <button id="next"><i class="fas fa-arrow-circle-right"></i></button>
+        </div>
+    </div>
+    <!--required script-->
+    <script src="sliderscript.js"></script>
+</body>
+
+</html>
